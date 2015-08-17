@@ -1,0 +1,1 @@
+﻿Get-Content E:\passwdmessage\sms.txt |foreach {java -cp "E:\passwdmessage" SmsDelegate hwang 987123 $_  "本月无线密码为pip@082015  请大家保存好短信，并通知有部门有需要的人"}
